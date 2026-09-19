@@ -1,0 +1,2 @@
+# Python dependencies for Fraud Detection evaluation & data verification
+pandas>=1.3.0
