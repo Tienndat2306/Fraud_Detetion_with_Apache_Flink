@@ -188,6 +188,7 @@ Verify timer semantics, state TTL, and anomaly evaluation independently:
 ```text
 Fraud_Detetion_with_Apache_Flink/
 ├── .mvn/wrapper/                          # Maven Wrapper files
+├── docs/                                  # Detailed project guides, benchmarks & design roadmaps
 ├── docker-compose.yml                     # Distributed cluster: Flink (JobManager + TaskManagers) + Kafka KRaft
 ├── mvnw.cmd                               # Maven Wrapper executable (Windows)
 ├── pom.xml                                # Project Object Model (Flink 1.20, Kafka Connector, CEP, TestHarness)
