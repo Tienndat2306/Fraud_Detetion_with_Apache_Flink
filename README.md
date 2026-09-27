@@ -14,12 +14,7 @@ A production-grade, distributed stream processing pipeline built on **Apache Fli
 ## 1. Demo / Screenshot / GIF
 
 ![Flink Web UI Dashboard](results/flink_dashboard.png)
-
-> *Note: Please place your screenshot of the running Flink Web UI (`http://localhost:8081`) showing the Job execution DAG graph and TaskManagers at `results/flink_dashboard.png`.*
-
-![Evaluation Script Output](results/evaluation_output.png)
-
-> *Note: Please place your screenshot of running `python scripts/evaluate.py` displaying the confusion matrix and Precision/Recall/F1 metrics at `results/evaluation_output.png`.*
+*Figure 1: Real-time Flink Web UI Dashboard (`http://localhost:8081`) showing the Job execution DAG graph, TaskManagers, and finished pipeline.*
 
 ---
 
@@ -201,7 +196,6 @@ Fraud_Detetion_with_Apache_Flink/
 │   └── alerts.csv                         # Detected fraud alerts
 ├── results/                               # Benchmark run outputs & screenshots (*.csv git-ignored)
 │   ├── flink_dashboard.png                # Flink Web UI screenshot
-│   ├── evaluation_output.png              # Evaluation output screenshot
 │   ├── alerts_run1.csv                    # Baseline evaluation alerts
 │   └── ground-truth_run1.csv              # Baseline evaluation ground truth
 ├── src/
@@ -280,11 +274,4 @@ This project is licensed under the [MIT License](LICENSE).
 * **Author**: Nguyen Tien Dat (Tienndat2306)
 * **Email**: [dattrithuc123@gmail.com](mailto:dattrithuc123@gmail.com)
 * **GitHub**: [Tienndat2306](https://github.com/Tienndat2306)
-* **LinkedIn**: [Profile](https://linkedin.com/in/username-cua-ban)
-
----
-
-## Checklist of Items to Fill Manually:
-
-- [ ] Add screenshots to `results/flink_dashboard.png` and `results/evaluation_output.png`.
-- [ ] (Optional) Add your LinkedIn profile URL in the **Contact / Author** section.
+* **LinkedIn**: [Nguyen Tien Dat](https://www.linkedin.com/in/ngtiendat2306/)
