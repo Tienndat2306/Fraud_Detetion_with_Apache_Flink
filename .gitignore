@@ -129,5 +129,7 @@ set-env.ps1
 # Benchmark Results (CSV exports)
 # ==========================================
 results/*.csv
+!results/alerts_run1.csv
+!results/ground-truth_run1.csv
 
 

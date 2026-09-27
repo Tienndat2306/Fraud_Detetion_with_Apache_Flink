@@ -45,11 +45,7 @@
             <version>${flink.version}</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-walkthrough-common</artifactId>
-            <version>${flink.version}</version>
-        </dependency>
+
 
         <!-- Flink CEP for R4 pattern matching -->
         <dependency>
@@ -58,12 +54,39 @@
             <version>${flink.version}</version>
         </dependency>
 
+        <!-- Apache Kafka Connector -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka</artifactId>
+            <version>3.2.0-1.19</version>
+        </dependency>
+
         <!-- Logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.36</version>
             <scope>runtime</scope>
+        </dependency>
+
+        <!-- Testing dependencies -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-test-utils</artifactId>
+            <version>${flink.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.25.3</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -106,7 +129,7 @@
                             </filters>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>spendreport.FraudDetectionJob</mainClass>
+                                    <mainClass>com.frauddetection.FraudDetectionJob</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
